@@ -1,0 +1,5 @@
+# Recommended: makes requests look like a real Chrome browser (far fewer blocks)
+curl_cffi>=0.7.0
+
+# Fallback HTTP client, used automatically if curl_cffi is not installed
+requests>=2.31.0
